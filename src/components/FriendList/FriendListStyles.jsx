@@ -12,7 +12,6 @@ export const Friend = styled.li`
   justify-content: start;
   align-items: center;
   padding: 0 15px;
-  width: 100%;
   height: 80px;
   background-color: #d5e3d1;
   border-radius: 10px;

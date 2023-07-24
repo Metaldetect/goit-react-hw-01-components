@@ -12,7 +12,7 @@ import {
   Quantity,
 } from './ProfileCardStyles.jsx';
 
-export const Profile = ({
+const Profile = ({
   username,
   tag,
   location,

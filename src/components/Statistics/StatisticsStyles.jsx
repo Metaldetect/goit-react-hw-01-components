@@ -4,7 +4,7 @@ import { getRandomHexColor } from 'utils/getRandomHexColor';
 export const Container = styled.section`
   margin: 20px auto 0 auto;
   width: 400px;
-  background-color: #d5e3d1;
+  background-color: #d7e3d1;
   border-radius: 10px;
   overflow: hidden;
 `;
@@ -21,8 +21,6 @@ export const StatList = styled.ul`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0;
-  padding: 0;
 `;
 
 export const StatItem = styled.li`
@@ -34,8 +32,12 @@ export const StatItem = styled.li`
   background-color: ${getRandomHexColor};
 `;
 
-export const Label = styled.span``;
+export const Label = styled.span`
+  font-size: 18px;
+  color: ${getRandomHexColor};
+`;
 
 export const Percentage = styled.span`
-  font-size: 16px;
+  font-size: 18px;
+  color: ${getRandomHexColor};
 `;

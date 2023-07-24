@@ -3,7 +3,8 @@ import { getRandomHexColor } from 'utils/getRandomHexColor';
 
 export const Card = styled.div`
   margin: 0 auto;
-  width: 300px;
+  margin-top: 20px;
+  width: 400px;
   background-color: #d5e3d1;
   border-radius: 10px;
   overflow: hidden;
@@ -17,9 +18,8 @@ export const Description = styled.div`
 `;
 
 export const Avatar = styled.img`
-  width: 200px;
-  height: 200px;
-  border-radius: 40%;
+  width: 300px;
+  height: 300px;
   background-color: #edf2eb;
 `;
 
@@ -50,16 +50,14 @@ export const StatsItem = styled.li`
   padding: 20px 0;
   width: 100%;
   background-color: ${getRandomHexColor};
-  :not(:last-child) {
-    border-right: 1px solid #e1e1e1;
-  }
 `;
 
 export const Label = styled.span`
-  color: gray;
+  color: ${getRandomHexColor};
 `;
 
 export const Quantity = styled.span`
   font-size: 16px;
   font-weight: 700;
+  color: ${getRandomHexColor};
 `;
