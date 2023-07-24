@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Profile from './components/Profile-card';
 import Statistics from './components/Statistics';
 import FriendList from 'components/FriendList';
