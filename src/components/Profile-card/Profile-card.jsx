@@ -1,4 +1,3 @@
-import user from '../../data/user.json';
 import PropTypes from 'prop-types';
 import {
   Card,
